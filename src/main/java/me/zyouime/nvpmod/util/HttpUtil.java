@@ -21,7 +21,7 @@ public class HttpUtil {
 
     private final ModConfig config;
     private final HttpClient client = HttpClient.newHttpClient();
-    private final String link = "https://zyouime.top/";
+    private final String link = "https://nvp.holyworld.me/";
 
     public HttpUtil(ModConfig config) {
         this.config = config;
