@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "nvpmod",
+  "version": "${version}",
+  "name": "NVPMod",
+  "description": "",
+  "authors": ["zyouime13"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nvpmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.zyouime.nvpmod.Main"
+    ]
+  },
+  "mixins": [
+    "nvpmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
