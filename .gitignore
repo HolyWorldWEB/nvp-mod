@@ -2,3 +2,7 @@
 .idea
 build
 run
+obfuscator/
+lib/
+obfuscator.gradle
+README_OBFUSCATION.md
